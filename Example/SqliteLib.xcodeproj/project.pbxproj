@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2BFAB59517F8FA2D1667AB11 /* Pods_SqliteLib_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E30CF53D23E76452DAFD124D /* Pods_SqliteLib_Tests.framework */; };
+		587485DB28A10A3D00D8A938 /* Sqlite.m in Sources */ = {isa = PBXBuildFile; fileRef = 587485D628A10A3D00D8A938 /* Sqlite.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -39,6 +40,8 @@
 /* Begin PBXFileReference section */
 		2AA020E044461266CE9D648F /* Pods-SqliteLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SqliteLib_Tests.release.xcconfig"; path = "Target Support Files/Pods-SqliteLib_Tests/Pods-SqliteLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		49ED607E20D3F6219A282561 /* Pods-SqliteLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SqliteLib_Example.release.xcconfig"; path = "Target Support Files/Pods-SqliteLib_Example/Pods-SqliteLib_Example.release.xcconfig"; sourceTree = "<group>"; };
+		587485D628A10A3D00D8A938 /* Sqlite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sqlite.m; sourceTree = "<group>"; };
+		587485D828A10A3D00D8A938 /* Sqlite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sqlite.h; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* SqliteLib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SqliteLib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,10 +63,10 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9A74F665155C9A80719D420E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		B87983220E0EC7EF7A7C57C4 /* SqliteLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SqliteLib.podspec; path = ../SqliteLib.podspec; sourceTree = "<group>"; };
+		9A74F665155C9A80719D420E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B87983220E0EC7EF7A7C57C4 /* SqliteLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SqliteLib.podspec; path = ../SqliteLib.podspec; sourceTree = "<group>"; };
 		CBE23D29B87F7E594EDE273A /* Pods-SqliteLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SqliteLib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SqliteLib_Tests/Pods-SqliteLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		CD59F5F724EF59EE5F412152 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CD59F5F724EF59EE5F412152 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D9D8D6894177E46420822A9E /* Pods_SqliteLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SqliteLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E30CF53D23E76452DAFD124D /* Pods_SqliteLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SqliteLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8C7270759F19E15F72EA3EA /* Pods-SqliteLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SqliteLib_Example.debug.xcconfig"; path = "Target Support Files/Pods-SqliteLib_Example/Pods-SqliteLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -103,13 +106,32 @@
 				CBE23D29B87F7E594EDE273A /* Pods-SqliteLib_Tests.debug.xcconfig */,
 				2AA020E044461266CE9D648F /* Pods-SqliteLib_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		587485D528A10A3D00D8A938 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				587485D828A10A3D00D8A938 /* Sqlite.h */,
+				587485D628A10A3D00D8A938 /* Sqlite.m */,
+			);
+			name = Classes;
+			path = ../SqliteLib/Classes;
+			sourceTree = "<group>";
+		};
+		587485D928A10A3D00D8A938 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Assets;
+			path = ../SqliteLib/Assets;
 			sourceTree = "<group>";
 		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				587485D928A10A3D00D8A938 /* Assets */,
+				587485D528A10A3D00D8A938 /* Classes */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for SqliteLib */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -258,6 +280,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -365,6 +388,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* KHANAppDelegate.m in Sources */,
+				587485DB28A10A3D00D8A938 /* Sqlite.m in Sources */,
 				6003F5A7195388D20070C39A /* KHANViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);

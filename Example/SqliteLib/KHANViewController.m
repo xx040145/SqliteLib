@@ -18,6 +18,16 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    
+    [[Sqlite shareInstance] openDataBase];
+    [[Sqlite shareInstance] createForm];
+//    [[Sqlite shareInstance] insertData:@"zkzk" ageinteger:22 sexStr:@"男"];
+    [[Sqlite shareInstance] transactionMethod];
+    [[Sqlite shareInstance] sqlData];
+    [[Sqlite shareInstance] closeDataBase];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning
