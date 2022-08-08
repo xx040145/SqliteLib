@@ -1,0 +1,16 @@
+PODS:
+  - SqliteLib (0.1.1)
+
+DEPENDENCIES:
+  - SqliteLib (from `../`)
+
+EXTERNAL SOURCES:
+  SqliteLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SqliteLib: 9ee6ec8b33b26b4b285c5f45f8493b9c3eeeddb7
+
+PODFILE CHECKSUM: 21f263abb5d5d621cc402001fdc0cbb307c8662e
+
+COCOAPODS: 1.11.3

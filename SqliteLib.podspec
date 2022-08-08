@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SqliteLib'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of SqliteLib.'
+  s.version          = '0.1.1'
+  s.summary          = 'Sqlite Lib.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  主要是为了测试创建 pod 库
                        DESC
 
-  s.homepage         = 'https://github.com/khanZhang/SqliteLib'
+  s.homepage         = 'https://github.com/xx040145/SqliteLib'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'khanZhang' => '11416349+khanzhang@user.noreply.gitee.com' }
-  s.source           = { :git => 'https://github.com/khanZhang/SqliteLib.git', :tag => s.version.to_s }
+  s.author           = { 'khanZhang' => 'xx040145@github.com' }
+  s.source           = { :git => 'https://github.com/xx040145/SqliteLib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
