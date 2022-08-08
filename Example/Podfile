@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'SqliteLib_Example' do
+  pod 'SqliteLib', :path => '../'
+
+  target 'SqliteLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
